@@ -89,3 +89,28 @@ a {
     font-size: 24px;
     margin: 0;
 }
+
+/* About section styling */
+.about-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e2e2e2;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.about-content {
+    flex: 1;
+    padding-right: 20px; /* Space between text and image */
+}
+
+.about-image {
+    flex: 0 0 200px; /* Set the width of the image container */
+}
+
+.about-image img {
+    width: 100%;
+    border-radius: 10px; /* Optional: add some styling to the image */
+}
