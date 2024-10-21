@@ -72,3 +72,13 @@ a {
     border-radius: 5px;
 }
 
+.page-title {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.page-title h2 {
+    color: #333;
+    font-size: 24px;
+    margin: 0;
+}
