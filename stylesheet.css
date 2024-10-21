@@ -32,6 +32,7 @@ nav a:hover {
 main {
     padding: 20px;
     padding-bottom: 60px; /* Add extra padding to the bottom to create space for the footer */
+    margin-bottom: 100px; /* This will add space below the main content area */
 }
 
 h2 {
