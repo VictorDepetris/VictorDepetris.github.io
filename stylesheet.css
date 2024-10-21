@@ -127,3 +127,15 @@ a {
     width: 100%; /* Make the image take up the full width of its container */
     border-radius: 10px; /* Optional: add some styling to the image */
 }
+
+.about-me {
+    text-align: justify; /* Optional: Justifies the whole paragraph for alignment */
+    line-height: 1.6;
+}
+
+.indented-paragraph {
+    display: block;
+    margin-top: 20px; /* Adds space above the paragraph */
+    text-indent: 40px; /* Indents the first line */
+}
+
