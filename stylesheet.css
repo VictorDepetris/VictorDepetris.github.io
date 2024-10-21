@@ -94,7 +94,7 @@ a {
 .about-section {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start; /* Align items to the top */
     background-color: #e2e2e2;
     padding: 15px;
     border-radius: 5px;
@@ -107,10 +107,12 @@ a {
 }
 
 .about-image {
-    flex: 0 0 200px; /* Set the width of the image container */
+    flex: 0 0 auto; /* Do not grow or shrink the image container */
+    max-width: 250px; /* Set a maximum width for the image */
+    margin-left: 20px; /* Space between image and content */
 }
 
 .about-image img {
-    width: 100%;
+    width: 100%; /* Make the image take up the full width of its container */
     border-radius: 10px; /* Optional: add some styling to the image */
 }
