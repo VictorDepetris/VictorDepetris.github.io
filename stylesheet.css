@@ -55,9 +55,10 @@ footer {
     padding: 10px;
     background-color: #333;
     color: white;
-    position: fixed;
-    bottom: 0;
+    position: relative; /* Change from fixed to relative */
+    /*bottom: 0;*/
     width: 100%;
+    margin-top: 20px; /* Add some space above the footer */
 }
 
 /* Box model properties */
