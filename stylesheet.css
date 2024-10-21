@@ -136,6 +136,5 @@ a {
 .indented-paragraph {
     display: block;
     margin-top: 20px; /* Adds space above the paragraph */
-    text-indent: 40px; /* Indents the first line */
 }
 
