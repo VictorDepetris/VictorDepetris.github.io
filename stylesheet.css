@@ -128,6 +128,26 @@ a {
     border-radius: 10px; /* Optional: add some styling to the image */
 }
 
+/* Responsive design for mobile devices */
+@media (max-width: 768px) {
+    .about-section {
+        flex-direction: column; /* Stack the image and text vertically */
+        align-items: center; /* Center align the content */
+        text-align: center; /* Center text for smaller screens */
+    }
+
+    .about-content {
+        padding-right: 0;
+        margin-bottom: 15px; /* Add space between the text and the image */
+    }
+
+    .about-image {
+        margin-left: 0; /* Reset margin for the image */
+        max-width: 150px; /* Reduce image size for smaller screens */
+    }
+}
+
+
 .about-me {
     text-align: justify; /* Optional: Justifies the whole paragraph for alignment */
     line-height: 1.6;
